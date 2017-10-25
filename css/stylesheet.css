@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Copperplate Gothic Light";
+    src: url(../fonts/cgl.ttf);
+}
+
+body { 
+    padding-bottom: 70px;
+    background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+    font-family: "Copperplate Gothic Light";
+    color: black;
+    min-height: 100vh;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+}
+.nav.navbar-nav.navbar-left li a {
+    color: black;
+}
+.navbar-text.navbar-right{
+    color: black;
+}
+.text-color{
+    color: #fff !important;
+}
+.banner {
+    background-image:url(../assets/banner.png);
+    min-height: 150px;
+    max-width: 100%;
+    min-width: 480px;
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    position:;
+    left: 0px;
+}
+.navbar {
+    margin: 0px;
+    color: white !important;
+}
+.navbar-default {
+    background: #e5c100;
+}
+.content-body {
+    padding-top: 10px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+.panel {
+    background-color:none;
+}
+.navbar-toggle {
+    background-color: antiquewhite;
+}
+.panel-transparent{
+    background: rgba(46, 51, 56, 0.5)!important;
+}
+.panel-midas{
+    background-image:url(../assets/justiceTile.png);
+    max-height: 100%;
+    max-width: 100%;
+    background-position:top, -50px, center;
+}
+.panel-creator{
+    background-image:url(../assets/alexTile.png);
+    max-height: 100%;
+    max-width: 100%;
+    background-position:top, -50px, center;
+    background-size:100%;
+}
+.panel-trial{
+    background-image:url(../assets/trial.png);
+    max-height: 100%;
+    max-width: 100%;
+    background-position:center;
+    background-size: auto 100%;
+}
+.panel-body{
+    color: white;
+}
+.tile{
+    height: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    padding: 5px 25px;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+}
+.glow-midas:hover{
+    color: rgba(255,255,255,1);
+    box-shadow: 0 0 15px 30px rgba(125, 253, 254,1);
+}
+.glow-creator:hover{
+    color: rgba(255,255,255,1);
+    box-shadow: 0 0 15px 30px rgba(205,201,201,1);
+}
+.glow-trial:hover{
+    color: rgba(255,255,255,1);
+    box-shadow: 0 0 15px 30px rgba(175, 157, 0,1);
+}
+.video{
+    position: center;
+    width: 100%;
+    height: 100%;
+}
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(229, 193, 0, 0.75);
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(229, 193, 0, 0.75);
+  }
+}
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #e5c100;
+  background-color: #e5c100;
+  color: white;
+}
+.footer-right{
+    float:right;
+    padding-top:5px;
+    text-decoration:none
+}
